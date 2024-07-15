@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400,500..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    width:100%;
+}
+
+.container{
+    width:100%;
+}
+
+.decorImage img{
+    width: 550px;
+    height:800px;
+    float:right;
+    border-radius:0px 0px 0px 120px;
+}
+
+.contactUs{
+    padding-left:-2rem;
+}
+
+.contact img{
+    width: 732px;
+border-radius: 16px 0px 0px 0px;
+position:absolute;
+margin-top:7rem;
+margin-left:9rem;
+}
+
+.contactText h3{
+font-family:"Open Sans", sans-serif;
+font-size: 30px;
+font-weight: 700;
+letter-spacing: -0.0267em;
+text-align: center;
+background-image:linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+background-clip: text;
+color: transparent;
+padding-left:-4rem;
+margin-bottom:0.4rem;
+}
+
+.contactText p{
+    font-family:"Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: rgba(103, 116, 142, 1);
+margin-bottom:2rem;
+margin-left:1.2rem;
+}
+
+.contactForm{
+    position:absolute;
+    display:flex;
+    gap:1rem;
+}
+
+.Name{
+    width:306px;
+}
+
+.Name label{
+font-family:"Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 7px;
+text-align: left;
+color: rgba(37, 47, 64, 1);
+padding-left:0.4rem;
+}
+
+.Email{
+    width:310px;
+}
+
+.Email label{
+font-family:"Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 7px;
+text-align: left;
+color: rgba(37, 47, 64, 1);
+padding-left:0.4rem;
+}
+
+.Name input{
+    width: 306px;
+    height: 40px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid rgba(210, 214, 218, 1);
+    color: rgba(73, 80, 87, 1);
+    font-family:"Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 7px;
+    text-align: left;
+    padding-left:1rem;
+}
+
+.Email input{
+    width: 310px;
+    height: 40px;
+    border-radius: 8px 8px 8px 8px;
+    color: rgba(73, 80, 87, 1);
+    border: 1px solid rgba(210, 214, 218, 1);
+    font-family:"Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 7px;
+    text-align: left;
+    padding-left:1rem;
+}
+
+.description{
+    margin-top:4rem;
+    z-index:2;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+}
+
+.description input{
+    width: 636px;
+    height: 150px;
+    padding-bottom:7rem;
+    padding-left:13px;
+    border-radius:8px 8px 8px 8px;
+    color: rgba(73, 80, 87, 1);
+    border: 1px solid rgba(210, 214, 218, 1);
+    font-family:"Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 7px;
+    text-align: left;
+    margin-top:1rem;
+}
+
+.description label{
+    font-family:"Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1px;
+    text-align: left;
+    color: rgba(37, 47, 64, 1);
+    margin-top:1rem;
+    padding-left:0.4rem;
+}
+
+.description button{
+    width: 134px;
+height: 40px;
+border-radius: 8px 8px 8px 8px;
+background: linear-gradient(135deg, #FF0080 0%, #7928CA 100%);
+border:none;
+font-family:"Open Sans", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: -0.034em;
+text-align: center;
+color:rgba(255, 255, 255, 1);
+margin-left:16rem;
+margin-top:1rem;
+}
+
+.contactUs{
+    padding-top:10rem;
+    margin-left:12rem;
+}
+
+.contactText{
+    position: relative;
+    margin-top:-1rem;
+    width:100%;
+    align-items:center;
+}
+
+footer{
+    padding-left:140.92px;
+    display:flex;
+}
+
+.footerLogo h2{
+    font-family: Poppins;
+font-size: 44px;
+font-weight: 400;
+line-height: 66px;
+text-align: left;
+color: rgba(24, 30, 75, 1);
+}
+
+.footerLogo h6{
+    font-family: Poppins;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.19px;
+text-align: left;
+color: rgba(94, 98, 130, 1);
+width:45%;
+margin-top:1rem;
+}
+
+.company{
+    margin-right:2.5rem;
+}
+
+.company h4{
+    font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 26.15px;
+text-align: left;
+color: rgba(8, 8, 9, 1);
+margin-bottom:2rem;
+}
+
+.company li{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32.41px;
+text-align: left;
+color: rgba(94, 98, 130, 1);
+}
+
+.contact{
+    margin-right:2.5rem;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.contact h4{
+    font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 26.15px;
+text-align: left;
+color: rgba(8, 8, 9, 1);
+margin-bottom:1.9rem;
+}
+
+.contact li{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32.41px;
+text-align: left;
+color: rgba(94, 98, 130, 1);
+}
+
+.more h4{
+    font-family: Poppins;
+font-size: 21px;
+font-weight: 700;
+line-height: 26.15px;
+text-align: left;
+color: rgba(8, 8, 9, 1);
+margin-bottom:1.9rem;
+}
+
+.more li{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32.41px;
+text-align: left;
+color: rgba(94, 98, 130, 1);
+}
+
+.app1 img{
+    width: 107px;
+}
+
+.links h4{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.9px;
+letter-spacing: 0.005em;
+text-align: left;
+color: rgba(94, 98, 130, 1);
+margin-top:0.7rem;
+}
+
+.app2 img{
+    width:100px;
+    margin-left:-8rem;
+}
+
+.quickLinks{
+    display:flex;
+    margin-top:1.4rem;
+    margin-left:-8rem;
+    align-items:center;
+}
+
+.app{
+    display:flex;
+    align-items:center;
+    gap:4.5rem;
+    margin-top:1rem;
+}
+
+.linkImage img{
+    width: 177px;
+}
+
+.links{
+    margin-left:5rem;
+    margin-top:0.7rem;
+}
+
+.text h6{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.43px;
+text-align:center;
+color: rgba(94, 98, 130, 1);
+margin-top:4rem;
+margin-bottom:4rem;
+}
+
+.footerLogo{
+    margin-top:10rem;
+}
+
+.quickLinks{
+    margin-top:11.4rem;
+}
+
+.links{
+    margin-top:10.5rem;
+}
+
+a{
+    text-decoration:none;
+}
